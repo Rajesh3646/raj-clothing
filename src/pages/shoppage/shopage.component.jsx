@@ -9,7 +9,6 @@ constructor() {
 }
 render() {
     return <div>
-        <h1>Shop Page</h1>
         {this.state.collections.map(item => (<CollectionPreview key={item.id} {...item}> </CollectionPreview>))}
     </div>
 }
